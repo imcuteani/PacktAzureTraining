@@ -1,0 +1,1 @@
+adlcopy /source https://<storage account name>.blob.core.windows.net/datafeed/ /dest adl://<name of your Data Lake Store>.azuredatalakestore.net/Copytest/ /sourcekey <access key>

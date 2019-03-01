@@ -1,0 +1,1 @@
+azcopy /Source:"E:\Demofiles\Mod04\Demo2\TestdataTree" /Dest:https://<storage account name>.blob.core.windows.net/datafeed /DestKey:<access key> /S
