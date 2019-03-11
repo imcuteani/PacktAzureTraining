@@ -1,0 +1,11 @@
+{
+  "location":"WestUS2",
+  "properties":{
+    "sku":{
+      "name":"standard"
+    },
+    "eventsOutOfOrderPolicy":"adjust",
+    "eventsOutOfOrderMaxDelayInSeconds":10,
+    "compatibilityLevel": 1.1
+  }
+}

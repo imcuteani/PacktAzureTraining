@@ -1,0 +1,28 @@
+{
+    "properties": {
+        "datasource": {
+            "type": "Microsoft.Storage/Blob",
+            "properties": {
+                "storageAccounts": [
+                    {
+                      "accountName": "asaquickstartstorage",
+                      "accountKey": "<storage account key>"
+                    }
+                ],
+                "container": "container1",
+                "pathPattern": "output/",
+                "dateFormat": "yyyy/MM/dd",
+                "timeFormat": "HH"
+            }
+        },
+        "serialization": {
+            "type": "Json",
+            "properties": {
+                "encoding": "UTF8",
+                "format": "LineSeparated"
+            }
+        }
+    },
+    "name": "BlobOutput",
+    "type": "Microsoft.StreamAnalytics/streamingjobs/outputs"
+}
