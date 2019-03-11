@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScriptAndGraph GraphType="VertexCommands">
+  <Vertices count="1">
+    <Vertex index="1" command="-scopeVertex SV1_Extract  -i E:\Live\PacktAzureTraining\Day1\HOL\Lab8\StockPrices.csv  -o E:\Live\PacktAzureTraining\Day1\HOL\Lab8\StockPriceUSQL\StockPriceUSQL\bin\Debug\Script\_TMP\scopetmpfile._SV1_Extract_out0(WITH_HEADER)" />
+    <Vertex command="-concatenate -i E:\Live\PacktAzureTraining\Day1\HOL\Lab8\StockPriceUSQL\StockPriceUSQL\bin\Debug\Script\_TMP\scopetmpfile._SV1_Extract_out0 -o C:\Users\Anindita\AppData\Local\USQLDataRoot\output\MaxPrices.csv" />
+  </Vertices>
+  <Outputs>
+    <Output path="C:\Users\Anindita\AppData\Local\USQLDataRoot\output\MaxPrices.csv" isBinary="False" schema="Ticker:string,MaxPrice:int?" />
+  </Outputs>
+  <graph serveForThirdParty="True" JsonErrors="True" JobType="BatchSqlIp" MaxPercentInputUnavailability="0" vertexExecutable="scopehost.exe" BroadcastCopyThroughCommandLine="ScopeEngine.dll -scopeVertex SV_CopyThrough">
+    <process id="SV1_Extract" command="ScopeEngine.dll -scopeVertex SV1_Extract" nativeOnly="true" managedMemorySize="0" nativeIOMemorySize="150994946" nativeExecutionMemorySize="5767167998" DummyVertexOptimization="AllInputsEmptyImpliesOutputsEmpty|RunAtLeastOneVertex" trustedVertex="True">
+      <input id="Extract_0[ALL]" streamSize="221566">
+        <cosmosStream cosmosPath="E:\Live\PacktAzureTraining\Day1\HOL\Lab8\StockPrices.csv" streamSize="221566" />
+      </input>
+      <output id="SV1_Extract_out0" cosmosStream="C:\Users\Anindita\AppData\Local\USQLDataRoot\output\MaxPrices.csv" />
+    </process>
+  </graph>
+  <Scopescript>// Auto-generated header code
+
+// Auto-generated header code ended
+// User script
+
+@priceData =
+    EXTRACT Ticker    string,
+            Price     int,
+            HourOfDay int
+    FROM "E:\\Live\\PacktAzureTraining\\Day1\\HOL\\Lab8\\StockPrices.csv"
+    USING Extractors.Csv(skipFirstNRows: 1);
+
+@maxPrices =
+    SELECT Ticker, MAX(Price) AS MaxPrice
+    FROM @priceData
+    GROUP BY Ticker;
+
+OUTPUT @maxPrices   
+    TO "/output/MaxPrices.csv"
+    USING Outputters.Csv(outputHeader: true);
+// User script ended
+// Auto-generated footer code
+
+// Auto-generated footer code ended
+
+</Scopescript>
+  <Optimization succeeded="true" time="00:00:00.8229444" latency="-1" totalCost="-1" />
+  <ScopeVertexAnnotations>
+    <ScopeVertex name="SV1_Extract">
+      <Operation annotation="EXTRACT USING IExtractor" />
+      <Operation annotation="OUTPUT USING IOutputter" />
+    </ScopeVertex>
+  </ScopeVertexAnnotations>
+</ScriptAndGraph>

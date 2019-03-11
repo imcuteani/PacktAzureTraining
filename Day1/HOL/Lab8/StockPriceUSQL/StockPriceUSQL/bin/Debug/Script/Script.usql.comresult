@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<CommonCompileResult xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <InputStreams>
+    <string>E:\Live\PacktAzureTraining\Day1\HOL\Lab8\StockPrices.csv</string>
+  </InputStreams>
+  <OutputStreams>
+    <OutputStreamInfo>
+      <Path>C:\Users\Anindita\AppData\Local\USQLDataRoot\output/MaxPrices.csv</Path>
+      <SchemaString />
+      <IsBinary>false</IsBinary>
+      <IsSStream>false</IsSStream>
+      <TableName />
+    </OutputStreamInfo>
+  </OutputStreams>
+  <ScriptPath>E:\Live\PacktAzureTraining\Day1\HOL\Lab8\StockPriceUSQL\StockPriceUSQL\bin\Debug\Script\Script.usql</ScriptPath>
+  <ScopeVertexDefinitionPath>E:\Live\PacktAzureTraining\Day1\HOL\Lab8\StockPriceUSQL\StockPriceUSQL\bin\Debug\Script\ScopeVertexDef.xml</ScopeVertexDefinitionPath>
+  <ScopeVertexDefinition>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ScopeVertices helperAssembly="__ScopeCodeGen__.dll" signatureVersion="1"&gt;
+  &lt;ScopeVertex id="SV1_Extract" cppReady="true" nativeOnly="true"&gt;
+    &lt;operator id="Extract_0" uid="1" assemblyName="Microsoft.Analytics.Interfaces.dll" className="Microsoft.Analytics.Interfaces.IExtractor"&gt;
+      &lt;input id="Extract_0" uid="1" schema="Ticker:string,Price:int,HourOfDay:int" inputIndex="0" numberOfInputs="ALL" /&gt;
+      &lt;output id="Extract_0_Data0" uid="2" schema="Ticker:string,Price:int" /&gt;
+    &lt;/operator&gt;
+    &lt;operator id="Process_1" uid="3" assemblyName="__ScopeCodeGen__.dll" className="SqlFilterTransformer_3"&gt;
+      &lt;input id="Extract_0_Data0" uid="2" schema="Ticker:string,Price:int" /&gt;
+      &lt;output id="Process_1_Data0" uid="4" schema="Ticker:string,partialagg0__:int?" /&gt;
+    &lt;/operator&gt;
+    &lt;operator id="Process_2" uid="5" assemblyName="__ScopeCodeGen__.dll" className="ScopeHashGrouper_1"&gt;
+      &lt;input id="Process_1_Data0" uid="4" schema="Ticker:string,partialagg0__:int?" /&gt;
+      &lt;output id="Process_2_Data0" uid="6" schema="Ticker:string,partialagg0__:int?" /&gt;
+    &lt;/operator&gt;
+    &lt;operator id="Process_3" uid="7" assemblyName="__ScopeCodeGen__.dll" className="ScopeSorter_1" args="-keys Ticker"&gt;
+      &lt;input id="Process_2_Data0" uid="6" schema="Ticker:string,partialagg0__:int?" /&gt;
+      &lt;output id="Process_3_Data0" uid="8" schema="Ticker:string,partialagg0__:int?" /&gt;
+    &lt;/operator&gt;
+    &lt;operator id="Process_4" uid="9" assemblyName="__ScopeCodeGen__.dll" className="SqlGrouper_1"&gt;
+      &lt;input id="Process_3_Data0" uid="8" schema="Ticker:string,partialagg0__:int?" /&gt;
+      &lt;output id="Process_4_Data0" uid="10" schema="Ticker:string,partialagg0__:int?" /&gt;
+    &lt;/operator&gt;
+    &lt;operator id="Process_5" uid="11" assemblyName="__ScopeCodeGen__.dll" className="SqlFilterTransformer_4"&gt;
+      &lt;input id="Process_4_Data0" uid="10" schema="Ticker:string,partialagg0__:int?" /&gt;
+      &lt;output id="Process_5_Data0" uid="12" schema="Ticker:string,MaxPrice:int?" /&gt;
+    &lt;/operator&gt;
+    &lt;operator id="Output_6" uid="13" assemblyName="Microsoft.Analytics.Interfaces.dll" className="Microsoft.Analytics.Interfaces.IOutputter"&gt;
+      &lt;input id="Process_5_Data0" uid="12" schema="Ticker:string,MaxPrice:int?" /&gt;
+      &lt;output id="SV1_Extract_out0" uid="13" schema="Ticker:string,MaxPrice:int?" outputIndex="0" numberOfOutputs="1" finalOutput="true" /&gt;
+    &lt;/operator&gt;
+  &lt;/ScopeVertex&gt;
+&lt;/ScopeVertices&gt;</ScopeVertexDefinition>
+  <AlgebraPath>E:\Live\PacktAzureTraining\Day1\HOL\Lab8\StockPriceUSQL\StockPriceUSQL\bin\Debug\Script\__script__.abr</AlgebraPath>
+  <Algebra>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ScriptAndGraph GraphType="VertexCommands"&gt;
+  &lt;Vertices count="1"&gt;
+    &lt;Vertex index="1" command="-scopeVertex SV1_Extract  -i E:\Live\PacktAzureTraining\Day1\HOL\Lab8\StockPrices.csv  -o E:\Live\PacktAzureTraining\Day1\HOL\Lab8\StockPriceUSQL\StockPriceUSQL\bin\Debug\Script\_TMP\scopetmpfile._SV1_Extract_out0(WITH_HEADER)" /&gt;
+    &lt;Vertex command="-concatenate -i E:\Live\PacktAzureTraining\Day1\HOL\Lab8\StockPriceUSQL\StockPriceUSQL\bin\Debug\Script\_TMP\scopetmpfile._SV1_Extract_out0 -o C:\Users\Anindita\AppData\Local\USQLDataRoot\output\MaxPrices.csv" /&gt;
+  &lt;/Vertices&gt;
+  &lt;Outputs&gt;
+    &lt;Output path="C:\Users\Anindita\AppData\Local\USQLDataRoot\output\MaxPrices.csv" isBinary="False" schema="Ticker:string,MaxPrice:int?" /&gt;
+  &lt;/Outputs&gt;
+  &lt;graph serveForThirdParty="True" JsonErrors="True" JobType="BatchSqlIp" MaxPercentInputUnavailability="0" vertexExecutable="scopehost.exe" BroadcastCopyThroughCommandLine="ScopeEngine.dll -scopeVertex SV_CopyThrough"&gt;
+    &lt;process id="SV1_Extract" command="ScopeEngine.dll -scopeVertex SV1_Extract" nativeOnly="true" managedMemorySize="0" nativeIOMemorySize="150994946" nativeExecutionMemorySize="5767167998" DummyVertexOptimization="AllInputsEmptyImpliesOutputsEmpty|RunAtLeastOneVertex" trustedVertex="True"&gt;
+      &lt;input id="Extract_0[ALL]" streamSize="221566"&gt;
+        &lt;cosmosStream cosmosPath="E:\Live\PacktAzureTraining\Day1\HOL\Lab8\StockPrices.csv" streamSize="221566" /&gt;
+      &lt;/input&gt;
+      &lt;output id="SV1_Extract_out0" cosmosStream="C:\Users\Anindita\AppData\Local\USQLDataRoot\output\MaxPrices.csv" /&gt;
+    &lt;/process&gt;
+  &lt;/graph&gt;
+  &lt;Scopescript&gt;// Auto-generated header code
+
+// Auto-generated header code ended
+// User script
+
+@priceData =
+    EXTRACT Ticker    string,
+            Price     int,
+            HourOfDay int
+    FROM "E:\\Live\\PacktAzureTraining\\Day1\\HOL\\Lab8\\StockPrices.csv"
+    USING Extractors.Csv(skipFirstNRows: 1);
+
+@maxPrices =
+    SELECT Ticker, MAX(Price) AS MaxPrice
+    FROM @priceData
+    GROUP BY Ticker;
+
+OUTPUT @maxPrices   
+    TO "/output/MaxPrices.csv"
+    USING Outputters.Csv(outputHeader: true);
+// User script ended
+// Auto-generated footer code
+
+// Auto-generated footer code ended
+
+&lt;/Scopescript&gt;
+  &lt;Optimization succeeded="true" time="00:00:00.8229444" latency="-1" totalCost="-1" /&gt;
+  &lt;ScopeVertexAnnotations&gt;
+    &lt;ScopeVertex name="SV1_Extract"&gt;
+      &lt;Operation annotation="EXTRACT USING IExtractor" /&gt;
+      &lt;Operation annotation="OUTPUT USING IOutputter" /&gt;
+    &lt;/ScopeVertex&gt;
+  &lt;/ScopeVertexAnnotations&gt;
+&lt;/ScriptAndGraph&gt;</Algebra>
+  <ErrorList />
+  <WarningList />
+  <HelperCodePath>E:\Live\PacktAzureTraining\Day1\HOL\Lab8\StockPriceUSQL\StockPriceUSQL\bin\Debug\Script\__ScopeCodeGenEngine__.dll.cpp</HelperCodePath>
+  <ResourceList />
+  <ReferenceList />
+  <ClusterResourceList />
+  <LocalRunSteps>
+    <string>-scopeVertex SV1_Extract  -i E:\Live\PacktAzureTraining\Day1\HOL\Lab8\StockPrices.csv  -o E:\Live\PacktAzureTraining\Day1\HOL\Lab8\StockPriceUSQL\StockPriceUSQL\bin\Debug\Script\_TMP\scopetmpfile._SV1_Extract_out0(WITH_HEADER) -managedMemorySize 0</string>
+    <string>-concatenate -i E:\Live\PacktAzureTraining\Day1\HOL\Lab8\StockPriceUSQL\StockPriceUSQL\bin\Debug\Script\_TMP\scopetmpfile._SV1_Extract_out0 -o C:\Users\Anindita\AppData\Local\USQLDataRoot\output\MaxPrices.csv -s "Ticker:string,MaxPrice:int?"</string>
+  </LocalRunSteps>
+  <LocalRunCachePath>E:\Live\PacktAzureTraining\Day1\HOL\Lab8\StockPriceUSQL\StockPriceUSQL\bin\Debug\Script</LocalRunCachePath>
+  <LocalRunTempPath>E:\Live\PacktAzureTraining\Day1\HOL\Lab8\StockPriceUSQL\StockPriceUSQL\bin\Debug\Script\_TMP</LocalRunTempPath>
+  <LocalRunRuntimePath>E:\Live\PacktAzureTraining\Day1\HOL\Lab8\StockPriceUSQL\StockPriceUSQL\bin\Debug\Script</LocalRunRuntimePath>
+  <ScopeWorkingDir>E:\Live\PacktAzureTraining\Day1\HOL\Lab8\StockPriceUSQL\StockPriceUSQL\bin\Debug\Script</ScopeWorkingDir>
+</CommonCompileResult>

@@ -1,0 +1,30 @@
+﻿{
+"CompilerPlanStart":"3\/11\/2019 10:42:18 AM"
+},
+{
+"Settings":"-c++ -mp -pdb Partial -OUTPUT_PATH C:\\Users\\Anindita\\AppData\\Local\\USQLDataRoot -cosmosCluster localhost -apEnvironment Default -apCluster localhost -Off EnableScopeVertexResourceMode -On ForceShadowCopy -On ADL -Off Sirius -On USQL -Off SQLIPSQLProxy -Off SQLIPSQLProxyNative -Off PolarisScaleUp -buckets 1 -SplitPartitionThreshold 52428800 -ClientVersion 10.2.2.0"
+},
+{
+"statementText":"    EXTRACT Ticker    string,            Price     int,            HourOfDay int    FROM \"E:"
+,
+{
+"NodeName":"QueryStatement"
+}}
+,
+{
+"statementText":"    SELECT Ticker, MAX(Price) AS MaxPrice    FROM @priceData    GROUP BY Ticker"
+,
+{
+"NodeName":"QueryStatement"
+}}
+,
+{
+"statementText":"OUTPUT @maxPrices       TO \"\/output\/MaxPrices.csv\"    USING Outputters.Csv(outputHeader: tru"
+,
+{
+"NodeName":"OutputStatement"
+}}
+,
+{
+"CompilerPlanEnd":"3\/11\/2019 10:42:18 AM"
+}

@@ -1,0 +1,4 @@
+E:\Live\PacktAzureTraining\Day1\HOL\Lab8\StockPriceUSQL\StockPriceUSQL\obj\Debug\StockPriceUSQL.usqlprojAssemblyReference.cache
+E:\Live\PacktAzureTraining\Day1\HOL\Lab8\StockPriceUSQL\StockPriceUSQL\obj\Debug\StockPriceUSQL.usqlproj.CoreCompileInputs.cache
+E:\Live\PacktAzureTraining\Day1\HOL\Lab8\StockPriceUSQL\StockPriceUSQL\bin\Debug\Algebra.xml
+E:\Live\PacktAzureTraining\Day1\HOL\Lab8\StockPriceUSQL\StockPriceUSQL\obj\Debug\Algebra.xml

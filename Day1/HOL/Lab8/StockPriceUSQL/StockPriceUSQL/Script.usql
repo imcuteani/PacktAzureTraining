@@ -1,0 +1,15 @@
+﻿@priceData =
+    EXTRACT Ticker    string,
+            Price     int,
+            HourOfDay int
+    FROM "/StockMarket/StockPrices.csv"
+    USING Extractors.Csv(skipFirstNRows: 1);
+
+@maxPrices =
+    SELECT Ticker, MAX(Price) AS MaxPrice
+    FROM @priceData
+    GROUP BY Ticker;
+
+OUTPUT @maxPrices   
+    TO "/output/MaxPrices.csv"
+    USING Outputters.Csv(outputHeader: true);

@@ -1,0 +1,25 @@
+// Auto-generated header code
+
+// Auto-generated header code ended
+// User script
+
+@priceData =
+    EXTRACT Ticker    string,
+            Price     int,
+            HourOfDay int
+    FROM "/StockMarket/StockPrices.csv"
+    USING Extractors.Csv(skipFirstNRows: 1);
+
+@maxPrices =
+    SELECT Ticker, MAX(Price) AS MaxPrice
+    FROM @priceData
+    GROUP BY Ticker;
+
+OUTPUT @maxPrices   
+    TO "/output/MaxPrices.csv"
+    USING Outputters.Csv(outputHeader: true);
+// User script ended
+// Auto-generated footer code
+
+// Auto-generated footer code ended
+

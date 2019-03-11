@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vertexCommand command="Start" jobType="None" managedMemorySize="0" vertexArg="ScopeEngine.dll -scopeVertex SV1_Extract -vertexNumber 0">
+  <inputs>
+    <input name="" path="E:\Live\PacktAzureTraining\Day1\HOL\Lab8\StockPrices.csv" blockAligned="True" globalStartOffset="0" localStartOffset="0" localEndOffset="221566" length="221566" />
+  </inputs>
+  <outputs>
+    <output path="E:\Live\PacktAzureTraining\Day1\HOL\Lab8\StockPriceUSQL\StockPriceUSQL\bin\Debug\Script\_TMP\scopetmpfile._SV1_Extract_out0" isFirstOutputPiece="True" />
+  </outputs>
+</vertexCommand>
