@@ -1,0 +1,156 @@
+﻿OrderDate	OrderID	CustomerID	CustomerName	OrderLineID	StockItemID	StockItemName	Quantity	UnitPrice
+2016-02-05	66198	831	Bhaavan Rai	208418	131	Furry gorilla with big eyes slippers (Black) M	5	32.00
+2016-02-05	66198	831	Bhaavan Rai	208419	185	Shipping carton (Brown) 356x356x279mm	75	2.04
+2016-02-05	66198	831	Bhaavan Rai	208420	105	Alien officer hoodie (Black) 4XL	8	35.00
+2016-02-05	66199	162	Tailspin Toys (Glen Park, NY)	208421	167	10 mm Anti static bubble wrap (Blue) 50m	100	99.00
+2016-02-05	66199	162	Tailspin Toys (Glen Park, NY)	208422	118	Dinosaur battery-powered slippers (Green) S	10	32.00
+2016-02-05	66200	924	Eva Schulteisz	208423	58	RC toy sedan car with remote control (Black) 1/50 scale	4	25.00
+2016-02-05	66200	924	Eva Schulteisz	208424	117	Superhero action jacket (Blue) 5XL	5	34.00
+2016-02-05	66200	924	Eva Schulteisz	208425	54	IT joke mug - that behavior is by design (White)	5	13.00
+2016-02-05	66200	924	Eva Schulteisz	208426	226	White chocolate snow balls 250g	144	8.55
+2016-02-05	66201	180	Tailspin Toys (Caselton, NV)	208427	71	Ride on toy sedan car (Yellow) 1/12 scale	9	230.00
+2016-02-05	66201	180	Tailspin Toys (Caselton, NV)	208428	120	Dinosaur battery-powered slippers (Green) L	5	32.00
+2016-02-05	66202	77	Tailspin Toys (Hahira, GA)	208429	168	20 mm Anti static bubble wrap (Blue) 10m	60	29.00
+2016-02-05	66203	984	Kamala Nishad	208431	10	USB food flash drive - chocolate bar	9	32.00
+2016-02-05	66203	984	Kamala Nishad	208432	13	USB food flash drive - shrimp cocktail	1	32.00
+2016-02-05	66204	532	Wingtip Toys (Waycross, GA)	208433	159	20 mm Double sided bubble wrap 10m	40	18.00
+2016-02-05	66204	532	Wingtip Toys (Waycross, GA)	208434	219	Void fill 400 L bag (White) 400L	90	50.00
+2016-02-05	66204	532	Wingtip Toys (Waycross, GA)	208435	206	Permanent marker black 5mm nib (Black) 5mm	36	2.70
+2016-02-05	66205	1041	Tomo Vidovic	208436	174	Bubblewrap dispenser (Black) 1.5m	9	240.00
+2016-02-05	66205	1041	Tomo Vidovic	208437	3	Office cube periscope (Black)	40	18.50
+2016-02-05	66205	1041	Tomo Vidovic	208438	18	DBA joke mug - daaaaaa-ta (White)	4	13.00
+2016-02-05	66206	68	Tailspin Toys (Gardere, LA)	208439	146	Halloween skull mask (Gray) S	24	18.00
+2016-02-05	66206	68	Tailspin Toys (Gardere, LA)	208440	216	Void fill 100 L bag (White) 100L	100	12.50
+2016-02-05	66206	68	Tailspin Toys (Gardere, LA)	208441	191	Black and orange fragile despatch tape 48mmx75m	72	3.70
+2016-02-05	66206	68	Tailspin Toys (Gardere, LA)	208442	25	DBA joke mug - I will get you in order (Black)	9	13.00
+2016-02-05	66206	68	Tailspin Toys (Gardere, LA)	208443	101	The Gu red shirt XML tag t-shirt (Black) 7XL	72	18.00
+2016-02-05	66207	1013	Annette  Hetu	208444	69	Ride on toy sedan car (Blue) 1/12 scale	4	230.00
+2016-02-05	66207	1013	Annette  Hetu	208445	181	Shipping carton (Brown) 356x229x229mm	25	1.14
+2016-02-05	66207	1013	Annette  Hetu	208446	13	USB food flash drive - shrimp cocktail	2	32.00
+2016-02-05	66208	436	Wingtip Toys (Gargatha, VA)	208447	189	Clear packaging tape 48mmx75m	260	2.90
+2016-02-05	66208	436	Wingtip Toys (Gargatha, VA)	208448	79	The Gu red shirt XML tag t-shirt (White) S	84	18.00
+2016-02-05	66208	436	Wingtip Toys (Gargatha, VA)	208449	2	USB rocket launcher (Gray)	6	2.50
+2016-02-05	66208	436	Wingtip Toys (Gargatha, VA)	208450	6	USB food flash drive - hot dog	8	3.20
+2016-02-05	66209	114	Tailspin Toys (Cherry Grove Beach, SC)	208451	19	DBA joke mug - daaaaaa-ta (Black)	1	13.00
+2016-02-05	66209	114	Tailspin Toys (Cherry Grove Beach, SC)	208452	129	Plush shark slippers (Gray) XL	8	32.00
+2016-02-05	66209	114	Tailspin Toys (Cherry Grove Beach, SC)	208453	172	32 mm Anti static bubble wrap (Blue) 20m	10	48.00
+2016-02-05	66209	114	Tailspin Toys (Cherry Grove Beach, SC)	208454	157	10 mm Double sided bubble wrap 20m	90	30.00
+2016-02-05	66210	933	Joel Carrillo	208455	123	Ogre battery-powered slippers (Green) M	7	32.00
+2016-02-05	66210	933	Joel Carrillo	208456	67	Ride on toy sedan car (Black) 1/12 scale	1	230.00
+2016-02-05	66210	933	Joel Carrillo	208457	5	USB food flash drive - hamburger	5	32.00
+2016-02-05	66210	933	Joel Carrillo	208458	8	USB food flash drive - dim sum 10 drive variety pack	6	240.00
+2016-02-05	66210	933	Joel Carrillo	208459	41	Developer joke mug - (hip, hip, array) (Black)	1	13.00
+2016-02-05	66211	501	Wingtip Toys (Cavendish, VT)	208460	111	Superhero action jacket (Blue) M	4	30.00
+2016-02-05	66211	501	Wingtip Toys (Cavendish, VT)	208461	11	USB food flash drive - cookie	7	3.20
+2016-02-05	66212	553	Wingtip Toys (Helotes, TX)	208462	100	The Gu red shirt XML tag t-shirt (Black) 6XL	72	18.00
+2016-02-05	66212	553	Wingtip Toys (Helotes, TX)	208463	213	Air cushion film 200mmx100mm 325m	10	87.00
+2016-02-05	66213	435	Wingtip Toys (Teutopolis, IL)	208464	174	Bubblewrap dispenser (Black) 1.5m	10	240.00
+2016-02-05	66213	435	Wingtip Toys (Teutopolis, IL)	208465	18	DBA joke mug - daaaaaa-ta (White)	9	13.00
+2016-02-05	66213	435	Wingtip Toys (Teutopolis, IL)	208467	213	Air cushion film 200mmx100mm 325m	2	87.00
+2016-02-05	66213	435	Wingtip Toys (Teutopolis, IL)	208468	24	DBA joke mug - I will get you in order (White)	10	13.00
+2016-02-05	66214	126	Tailspin Toys (Francis Mills, NJ)	208469	225	Chocolate sharks 250g	144	8.55
+2016-02-05	66214	126	Tailspin Toys (Francis Mills, NJ)	208470	143	Halloween zombie mask (Light Brown) M	12	18.00
+2016-02-05	66215	954	Nasrin Omidzadeh	208471	163	32 mm Double sided bubble wrap 20m	10	37.00
+2016-02-05	66215	954	Nasrin Omidzadeh	208472	199	Black and yellow heavy despatch tape  48mmx75m	72	3.70
+2016-02-05	66215	954	Nasrin Omidzadeh	208473	64	RC vintage American toy coupe with remote control (Red) 1/50 scale	3	30.00
+2016-02-05	66216	16	Tailspin Toys (Coney Island, MO)	208475	19	DBA joke mug - daaaaaa-ta (Black)	6	13.00
+2016-02-05	66216	16	Tailspin Toys (Coney Island, MO)	208476	216	Void fill 100 L bag (White) 100L	90	12.50
+2016-02-05	66216	16	Tailspin Toys (Coney Island, MO)	208477	81	The Gu red shirt XML tag t-shirt (White) L	108	18.00
+2016-02-05	66216	16	Tailspin Toys (Coney Island, MO)	208478	212	Large  replacement blades 18mm	60	4.30
+2016-02-05	66217	1054	Emma Salpa	208479	127	Plush shark slippers (Gray) M	9	32.00
+2016-02-05	66217	1054	Emma Salpa	208480	123	Ogre battery-powered slippers (Green) M	8	32.00
+2016-02-05	66218	123	Tailspin Toys (Roe Park, NY)	208481	27	DBA joke mug - SELECT caffeine FROM mug (Black)	6	13.00
+2016-02-05	66218	123	Tailspin Toys (Roe Park, NY)	208482	65	RC vintage American toy coupe with remote control (Black) 1/50 scale	8	30.00
+2016-02-05	66218	123	Tailspin Toys (Roe Park, NY)	208483	124	Ogre battery-powered slippers (Green) L	4	32.00
+2016-02-05	66219	913	Violetta KlanCisar	208485	81	The Gu red shirt XML tag t-shirt (White) L	96	18.00
+2016-02-05	66219	913	Violetta KlanCisar	208486	102	Alien officer hoodie (Black) XL	10	35.00
+2016-02-05	66220	1009	Bhagavateeprasaad Malladi	208487	219	Void fill 400 L bag (White) 400L	100	50.00
+2016-02-05	66220	1009	Bhagavateeprasaad Malladi	208488	150	Pack of 12 action figures (variety)	8	16.00
+2016-02-05	66220	1009	Bhagavateeprasaad Malladi	208489	84	The Gu red shirt XML tag t-shirt (White) 3XL	48	18.00
+2016-02-05	66220	1009	Bhagavateeprasaad Malladi	208490	206	Permanent marker black 5mm nib (Black) 5mm	48	2.70
+2016-02-05	66220	1009	Bhagavateeprasaad Malladi	208491	46	Developer joke mug - a foo walks into a bar (White)	8	13.00
+2016-02-05	66221	852	Bhagavaan Atluri	208492	26	DBA joke mug - SELECT caffeine FROM mug (White)	4	13.00
+2016-02-05	66221	852	Bhagavaan Atluri	208493	64	RC vintage American toy coupe with remote control (Red) 1/50 scale	9	30.00
+2016-02-05	66221	852	Bhagavaan Atluri	208494	154	Medium sized bubblewrap roll 20m	20	20.00
+2016-02-05	66221	852	Bhagavaan Atluri	208495	180	Shipping carton (Brown) 279x254x217mm	75	1.11
+2016-02-05	66222	37	Tailspin Toys (Kerby, OR)	208496	175	Bubblewrap dispenser (Blue) 1.5m	8	240.00
+2016-02-05	66222	37	Tailspin Toys (Kerby, OR)	208497	157	10 mm Double sided bubble wrap 20m	10	30.00
+2016-02-05	66222	37	Tailspin Toys (Kerby, OR)	208498	17	DBA joke mug - mind if I join you? (Black)	1	13.00
+2016-02-05	66222	37	Tailspin Toys (Kerby, OR)	208499	153	Small sized bubblewrap roll 10m	80	4.50
+2016-02-05	66223	495	Wingtip Toys (Boalsburg, PA)	208500	11	USB food flash drive - cookie	4	3.20
+2016-02-05	66223	495	Wingtip Toys (Boalsburg, PA)	208501	88	The Gu red shirt XML tag t-shirt (White) 7XL	96	18.00
+2016-02-05	66223	495	Wingtip Toys (Boalsburg, PA)	208502	172	32 mm Anti static bubble wrap (Blue) 20m	30	48.00
+2016-02-05	66224	850	Daakshaayaani Sankaramanchi	208503	31	Developer joke mug - Oct 31 = Dec 25 (Black)	1	13.00
+2016-02-05	66224	850	Daakshaayaani Sankaramanchi	208504	137	Animal with big feet slippers (Brown) XL	9	32.00
+2016-02-05	66224	850	Daakshaayaani Sankaramanchi	208505	168	20 mm Anti static bubble wrap (Blue) 10m	70	29.00
+2016-02-05	66225	974	Emil Roman	208506	55	IT joke mug - that behavior is by design (Black)	6	13.00
+2016-02-05	66225	974	Emil Roman	208507	158	10 mm Double sided bubble wrap 50m	100	105.00
+2016-02-05	66225	974	Emil Roman	208508	24	DBA joke mug - I will get you in order (White)	5	13.00
+2016-02-05	66225	974	Emil Roman	208509	67	Ride on toy sedan car (Black) 1/12 scale	1	230.00
+2016-02-05	66225	974	Emil Roman	208510	131	Furry gorilla with big eyes slippers (Black) M	9	32.00
+2016-02-05	66226	1030	Chompoo Atitarn	208511	222	Chocolate beetles 250g	48	8.55
+2016-02-05	66226	1030	Chompoo Atitarn	208512	7	USB food flash drive - pizza slice	5	32.00
+2016-02-05	66227	113	Tailspin Toys (Dahlia, NM)	208513	58	RC toy sedan car with remote control (Black) 1/50 scale	8	25.00
+2016-02-05	66227	113	Tailspin Toys (Dahlia, NM)	208514	212	Large  replacement blades 18mm	100	4.30
+2016-02-05	66227	113	Tailspin Toys (Dahlia, NM)	208515	224	Chocolate frogs 250g	24	8.55
+2016-02-05	66227	113	Tailspin Toys (Dahlia, NM)	208516	53	IT joke mug - keyboard not found … press F1 to continue (Black)	6	13.00
+2016-02-05	66227	113	Tailspin Toys (Dahlia, NM)	208517	6	USB food flash drive - hot dog	3	32.00
+2016-02-05	66228	1009	Bhagavateeprasaad Malladi	208518	9	USB food flash drive - banana	8	32.00
+2016-02-05	66228	1009	Bhagavateeprasaad Malladi	208519	35	Developer joke mug - fun was unexpected at this time (Black)	6	13.00
+2016-02-05	66228	1009	Bhagavateeprasaad Malladi	208520	160	20 mm Double sided bubble wrap 20m	40	33.00
+2016-02-05	66228	1009	Bhagavateeprasaad Malladi	208521	159	20 mm Double sided bubble wrap 10m	70	18.00
+2016-02-05	66229	960	Edgar Jogi	208522	102	Alien officer hoodie (Black) XL	10	35.00
+2016-02-05	66229	960	Edgar Jogi	208523	191	Black and orange fragile despatch tape 48mmx75m	180	3.70
+2016-02-05	66230	432	Wingtip Toys (Vamo, FL)	208524	139	Furry animal socks (Pink) M	108	5.00
+2016-02-05	66230	432	Wingtip Toys (Vamo, FL)	208525	68	Ride on toy sedan car (Red) 1/12 scale	5	230.00
+2016-02-05	66230	432	Wingtip Toys (Vamo, FL)	208526	70	Ride on toy sedan car (Green) 1/12 scale	10	230.00
+2016-02-05	66230	432	Wingtip Toys (Vamo, FL)	208527	87	The Gu red shirt XML tag t-shirt (White) 6XL	24	18.00
+2016-02-05	66230	432	Wingtip Toys (Vamo, FL)	208528	212	Large  replacement blades 18mm	50	4.30
+2016-02-05	66231	75	Tailspin Toys (Windsor Locks, CT)	208529	51	Developer joke mug - old C developers never die (Black)	5	13.00
+2016-02-05	66231	75	Tailspin Toys (Windsor Locks, CT)	208530	174	Bubblewrap dispenser (Black) 1.5m	9	240.00
+2016-02-05	66231	75	Tailspin Toys (Windsor Locks, CT)	208531	162	32 mm Double sided bubble wrap 10m	80	22.00
+2016-02-05	66232	918	Isidora Morales	208532	123	Ogre battery-powered slippers (Green) M	1	32.00
+2016-02-05	66232	918	Isidora Morales	208533	145	Halloween zombie mask (Light Brown) XL	72	18.00
+2016-02-05	66233	119	Tailspin Toys (Statenville, GA)	208534	28	DBA joke mug - two types of DBAs (White)	3	13.00
+2016-02-05	66233	119	Tailspin Toys (Statenville, GA)	208535	203	Tape dispenser (Black)	30	32.00
+2016-02-05	66233	119	Tailspin Toys (Statenville, GA)	208536	4	USB food flash drive - sushi roll	6	32.00
+2016-02-05	66234	476	Wingtip Toys (Karthaus, PA)	208538	63	RC toy sedan car with remote control (Pink) 1/50 scale	4	25.00
+2016-02-05	66234	476	Wingtip Toys (Karthaus, PA)	208539	146	Halloween skull mask (Gray) S	60	18.00
+2016-02-05	66234	476	Wingtip Toys (Karthaus, PA)	208540	47	Developer joke mug - a foo walks into a bar (Black)	10	13.00
+2016-02-05	66234	476	Wingtip Toys (Karthaus, PA)	208541	186	Shipping carton (Brown) 457x457x457mm	225	2.10
+2016-02-05	66235	932	Nicolo Cattaneo	208542	160	20 mm Double sided bubble wrap 20m	70	33.00
+2016-02-05	66235	932	Nicolo Cattaneo	208543	118	Dinosaur battery-powered slippers (Green) S	10	32.00
+2016-02-05	66235	932	Nicolo Cattaneo	208544	165	10 mm Anti static bubble wrap (Blue) 10m	100	26.00
+2016-02-05	66235	932	Nicolo Cattaneo	208545	158	10 mm Double sided bubble wrap 50m	40	105.00
+2016-02-05	66235	932	Nicolo Cattaneo	208546	107	Superhero action jacket (Blue) 3XS	6	25.00
+2016-02-05	66236	554	Wingtip Toys (Hollandsburg, IN)	208547	173	32 mm Anti static bubble wrap (Blue) 50m	40	105.00
+2016-02-05	66236	554	Wingtip Toys (Hollandsburg, IN)	208548	181	Shipping carton (Brown) 356x229x229mm	225	1.14
+2016-02-05	66237	1	Tailspin Toys (Head Office)	208549	126	Plush shark slippers (Gray) S	1	32.00
+2016-02-05	66237	1	Tailspin Toys (Head Office)	208550	60	RC toy sedan car with remote control (Blue) 1/50 scale	10	25.00
+2016-02-05	66237	1	Tailspin Toys (Head Office)	208551	104	Alien officer hoodie (Black) 3XL	2	35.00
+2016-02-05	66237	1	Tailspin Toys (Head Office)	208552	103	Alien officer hoodie (Black) XXL	6	35.00
+2016-02-05	66238	922	Sumati Chatterjee	208553	122	Ogre battery-powered slippers (Green) S	5	32.00
+2016-02-05	66238	922	Sumati Chatterjee	208554	188	3 kg Courier post bag (White) 300x190x95mm	50	0.66
+2016-02-05	66238	922	Sumati Chatterjee	208555	165	10 mm Anti static bubble wrap (Blue) 10m	70	26.00
+2016-02-05	66239	1012	Urve Kasesalu	208556	159	20 mm Double sided bubble wrap 10m	60	18.00
+2016-02-05	66239	1012	Urve Kasesalu	208557	79	The Gu red shirt XML tag t-shirt (White) S	24	18.00
+2016-02-05	66239	1012	Urve Kasesalu	208558	126	Plush shark slippers (Gray) S	4	32.00
+2016-02-05	66239	1012	Urve Kasesalu	208559	105	Alien officer hoodie (Black) 4XL	1	35.00
+2016-02-05	66240	1015	Isa Hulsegge	208560	51	Developer joke mug - old C developers never die (Black)	7	13.00
+2016-02-05	66240	1015	Isa Hulsegge	208561	67	Ride on toy sedan car (Black) 1/12 scale	9	230.00
+2016-02-05	66240	1015	Isa Hulsegge	208562	76	The Gu red shirt XML tag t-shirt (White) 3XS	84	18.00
+2016-02-05	66240	1015	Isa Hulsegge	208563	129	Plush shark slippers (Gray) XL	10	32.00
+2016-02-05	66241	500	Wingtip Toys (Obion, TN)	208564	131	Furry gorilla with big eyes slippers (Black) M	1	32.00
+2016-02-05	66241	500	Wingtip Toys (Obion, TN)	208565	203	Tape dispenser (Black)	70	32.00
+2016-02-05	66241	500	Wingtip Toys (Obion, TN)	208566	25	DBA joke mug - I will get you in order (Black)	8	13.00
+2016-02-05	66242	12	Tailspin Toys (Biscay, MN)	208568	213	Air cushion film 200mmx100mm 325m	5	87.00
+2016-02-05	66242	12	Tailspin Toys (Biscay, MN)	208569	63	RC toy sedan car with remote control (Pink) 1/50 scale	2	25.00
+2016-02-05	66242	12	Tailspin Toys (Biscay, MN)	208570	154	Medium sized bubblewrap roll 20m	100	20.00
+2016-02-05	66243	1008	Vedrana Kovacevic	208571	87	The Gu red shirt XML tag t-shirt (White) 6XL	108	18.00
+2016-02-05	66243	1008	Vedrana Kovacevic	208572	56	IT joke mug - hardware: part of the computer that can be kicked (White)	8	13.00
+2016-02-05	66244	77	Tailspin Toys (Hahira, GA)	208430	86	The Gu red shirt XML tag t-shirt (White) 5XL	48	18.00
+2016-02-05	66245	435	Wingtip Toys (Teutopolis, IL)	208466	80	The Gu red shirt XML tag t-shirt (White) M	108	18.00
+2016-02-05	66246	954	Nasrin Omidzadeh	208474	98	The Gu red shirt XML tag t-shirt (Black) 4XL	24	18.00
+2016-02-05	66247	913	Violetta KlanCisar	208484	193	Black and orange glass with care despatch tape 48mmx75m	240	3.70
+2016-02-05	66248	119	Tailspin Toys (Statenville, GA)	208537	95	The Gu red shirt XML tag t-shirt (Black) XL	84	18.00
+2016-02-05	66249	12	Tailspin Toys (Biscay, MN)	208567	98	The Gu red shirt XML tag t-shirt (Black) 4XL	60	18.00
